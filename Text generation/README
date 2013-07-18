@@ -1,0 +1,15 @@
+makeText.awk
+Copyright (C) 2004 Ben Kiel, released under GPL
+
+Needs: 
+awk, a text file of input text, and a text file of words: one per line.
+
+How to use:
+Rename your input text input.txt. This text needs punctuation removed, capitol letters are ignored, so lowercase text is best. You also need a file of words that you want to use to replace the words in your input.txt file. This file should have one word per line. The anagram maker at http://www.wordsmith.org/anagram/advanced.html works well for generating a list of words from a limited set of characters. Check 'yes' for the 'Print candidate word list only' option. The file of words should be called wordList.dict. After you have both these files in the same directory as makeText.awk, and you have the correct path to your instillation of awk in the first line (the command 'whereis awk' is handy in finding this out) all you have to do is type makeText.awk to generate the new text file, which is output as a file called newText.txt.
+
+This release includes a sample input.txt and wordList.dict file. The word list is for a set of words using the letters a, d, h, e, s, i, o, n.
+
+Try and modify as need be.
+
+ben@benkiel.com
+
