@@ -12,6 +12,9 @@ These scripts will aid in building accents, placing anchors, and removing anchor
 ###[Better Generate Font](betterGenerateFont.py)
 This script will make a copy of the font you are working on, remove its overlaps and decompose its characters, then give you the choice of font type to generate. After the font is generated, it deletes the copy, leaving your orignal vfb file untouched. This is very useful if you are developing a design using overlaps, and are tired of having to make a duplicate font to remove overlaps when you want to test your design.
 
+###[Script for composites](Composite tools)
+A way of dumping out composites to something that you can edit in a spreadsheet and reimport changes to positions.
+
 ###[Script for dealing with Guidelines](lowercase.py)
 This example script shows how one can add and remove guidelines to a vfb file. Useful for dealing with fonts with a large number of different types of glyphs (small caps, non-latins, expanded accented character sets, etc.) when one doesn't want to clutter the glyph window with guides that one isn't using.
 
