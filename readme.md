@@ -6,7 +6,7 @@ These following scripts were developed in 2005, right at the point when FontLab 
 **Note**: All of these scripts require that [RoboFab](http://robofab.org) be installed. The scripts should be placed in your Macro folder.
 
 
-###[Scripts for Accents](Accent Tools)
+###[Scripts for Accents](Accent tools)
 These scripts will aid in building accents, placing anchors, and removing anchors. **placeAnchor** will place anchors on selected glyphs with a name and height of your choosing. **removeAnchors** and **removeSelectedAnchors** remove either all the anchors from a font or the anchors on selected glyphs in a font. **buildAccents** will build accented characters from glyphs which have anchors. The list of accented glyphs it will build is editable. If you have more than one accent design (say, accents for capital letters and accents for lowercase letters) the script allows the placement of each on the proper glyph.
 
 ###[Better Generate Font](betterGenerateFont.py)
