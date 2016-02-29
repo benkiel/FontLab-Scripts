@@ -7,7 +7,7 @@
 # are working on.
 #
 # Version History 
-# 1.6 Worked out problems with glyphs of many components, thanks to Claus Eggers S¿rensen. 
+# 1.6 Worked out problems with glyphs of many components, thanks to Claus Eggers SÂ¿rensen. 
 # I've also sped up the path direction correction, answering Rob Kellers complaints.
 # 1.5 Fixed a bug with OT Classes that was either always there or introduced in FL5. Thanks to 
 # David Brezina for finding and fixing that & Karsten Luecke for getting on me to post the new version
@@ -133,6 +133,9 @@ rfFont = CurrentFont()
 font = decomposeFont(rfFont)
 fontType = ftOPENTYPE
 if fontType is None:
+	closeFont(font)
+elif font.font_name is None:
+	print "Error: Undefined font family name. Please set the font family name first in Font > Info > Names and Copyright"
 	closeFont(font)
 else:
 	path = getSaveLocation(font, fontType)
