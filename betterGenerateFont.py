@@ -139,7 +139,7 @@ fontType = ftOPENTYPE
 if fontType is None:
 	closeFont(font)
 elif font.font_name is None:
-	print "Error: Undefined font family name. Please set the font family name first in Font > Info > Names and Copyright"
+	Message("Error: No font naming information. Please set the font names first in Font > Info > Names and Copyright")
 	closeFont(font)
 else:
 	path = getSaveLocation(font, fontType)
