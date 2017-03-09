@@ -17,6 +17,10 @@
 # 1.1 Added OpenType Feature and Class Export, May 10, 2005
 # 1.0 First release
 #
+# Opentype Features
+# If you link your OpenType features or groups in external files, for this to work you will need to use the
+# full path when including your files, or they won't be put into the test font.
+#
 # Copyright Ben Kiel, 2005
 #
 # This program is free software; you can redistribute it and/or
